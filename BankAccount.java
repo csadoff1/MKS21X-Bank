@@ -14,7 +14,7 @@ public class BankAccount{
     return accountID;
   }
   public String toString() {
-    return (accountID + "/t" + balance);
+    return (accountID + "\t" + balance);
   }
   public boolean deposit(double depositAmount) {
     if (depositAmount >= 0) {
