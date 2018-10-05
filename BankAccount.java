@@ -30,5 +30,8 @@ public class BankAccount{
     }
     return false;
   }
+  public boolean authenticate(String pword) {
+    return (password.equals(pword));
+  }
 
 }
